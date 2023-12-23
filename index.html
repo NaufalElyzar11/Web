@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Biologi Naufal Elyzar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/180/180700.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <a href="" class="logo">Naufal Elyzar</a>
+    <ul>
+      <li><a href="https://Bulan.nopale.repl.co" class="active">Home</a></li>
+      <li><a href="https://i.postimg.cc/L5whMMf8/CV.png">About Me</a></li>
+      <li><a href="https://web.nopale.repl.co/">Work</a></li>
+      <li><a href="https://wa.me/+6281346425154">Contact</a></li>
+    </ul>
+  </header>
+  <section>
+    <img src="stars.png" id="stars">
+    <img src="moon.png" id="moon">
+    <img src="mountains_behind.png" id="mountains_behind">
+    <h2 id="text">Bulan</h2>
+    <a href="#sec" id="btn">Explore</a>
+    <img src="mountains_front.png" id="mountains_front">
+  </section>
+  <div class="sec" id="sec">
+    <h2>Bagaimana Bulan Mempengaruhi Tumbuh-tumbuhan</h2>
+    <p>Bulan telah lama diketahui memiliki pengaruh pada berbagai aspek kehidupan di bumi, termasuk pada tumbuh-tumbuhan. Fase bulan, pengaruh gravitasi, dan cahaya bulan dapat memengaruhi pertumbuhan, produksi, dan siklus hidup tumbuhan. Berikut adalah penjelasan lebih detail mengenai hal tersebut.</p>
+  </div>
+  <div class="sec2" id="sec">
+    <p>Bulan memiliki peran penting dalam mempengaruhi tumbuh-tumbuhan. Setiap jenis tanaman memiliki respons yang berbeda terhadap pengaruh bulan, sehingga diperlukan penelitian lebih lanjut untuk memahami secara mendalam bagaimana bulan mempengaruhi tumbuh-tumbuhan. Namun secara umum, bulan dapat mempengaruhi fase pertumbuhan, produksi, dan siklus hidup tumbuhan. Secara umum, bulan dapat mempengaruhi pertumbuhan, produksi, dan siklus hidup tumbuhan melalui beberapa mekanisme. Fase bulan dapat memengaruhi germinasi biji, pertumbuhan daun, dan produksi buah pada tanaman tertentu. Pengaruh gravitasi bulan dapat memengaruhi aliran cairan di dalam tumbuhan.<br><br> Mekanisme yang membuat bulan mempengaruhi tumbuh-tumbuhan masih belum sepenuhnya dipahami. Namun, beberapa teori telah diajukan untuk menjelaskan pengaruh bulan pada tumbuh-tumbuhan. Salah satu teori menyebutkan bahwa perubahan gravitasi yang diakibatkan oleh bulan dapat memengaruhi aliran cairan di dalam tumbuhan. Teori lainnya menyebutkan bahwa cahaya bulan dapat mempengaruhi fotosintesis pada tumbuhan.
+  </p>
+  </div>
+<div class="image-container">
+    <img src="https://p0.pxfuel.com/preview/937/463/706/landscape-nature-moon-full-moon.jpg" alt="gambar" class="curved-image aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000" >
+  </div>
+</div>
+<div class="sec2" id="sec">
+  <p>Penelitian mengenai pengaruh bulan pada tumbuh-tumbuhan dilakukan oleh berbagai ilmuwan dan peneliti di seluruh dunia. Beberapa nama terkemuka di antaranya adalah Peter Barlow, seorang astronom dan matematikawan Inggris yang hidup pada abad ke-18, serta biolog Amerika Serikat, Frank Brown.<br><br> Peneletian ini juga telah dilakukan sejak lama. Beberapa catatan sejarah menunjukkan bahwa bangsa Mesir kuno telah menggunakan fase bulan untuk menentukan waktu penanaman tanaman. Selain itu, ilmuwan dan peneliti modern terus melakukan penelitian mengenai hal ini hingga saat ini. Beberapa penelitian dilakukan di laboratorium, sementara yang lain dilakukan di lapangan dengan memantau pertumbuhan tanaman di lingkungan yang berbeda-beda.</p>
+  
+</br>
+            <div class="youtube-video" data-aos="fade-right" data-aos-duration="500">
+                <iframe width="560" height="415"  src="https://www.youtube.com/embed/24jNbjjrpr8" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            </div>
+            </br>
+<footer>
+  <div class="footer-icons">
+    <a href="https://www.instagram.com/val_elzar/" target="_blank">
+      <img src="IG.png" alt="Instagram Icon" />
+    </a>
+    <a href="https://open.spotify.com/user/31ka2gyolp6xm6i6everinxdyx7u" target="_blank">
+      <img src="11661570388xlqve2emckykh8duxvsgpvh7twc500yxmhrxeqceos5tlsy69cafnjapavvuls7qozpoi4rz8u97zecjlqnva0yy38a7xxuxbu2r.png" alt="Spotify Icon" />
+    </a>
+    <a href="mailto:naufal111el@gmail.com" target="_blank">
+      <img src="email-logo-png-27.png" alt="Email Icon" />
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+  
+
+  <script>
+    let stars = document.getElementById('stars')
+    let moon = document.getElementById('moon')
+    let mountains_behind = document.getElementById('mountains_behind')
+    let text = document.getElementById('text')
+    let btn = document.getElementById('btn')
+    let mountains_front = document.getElementById('mountains_front')
+    let header = document.querySelector('header')
+
+    window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+      stars.style.left = value * 0.25 + 'px'
+      moon.style.top = value * 1.05 + 'px'
+      mountains_behind.style.top = value * 0.5 + 'px'
+      mountains_front.style.top = value * 0 + 'px'
+      text.style.marginRight = value * 4 + 'px'
+      text.style.marginTop = value * 1.5 + 'px'
+      btn.style.marginTop = value * 1.5 + 'px'
+      header.style.top = value * 0.5 + 'px'
+    })
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
